@@ -2,7 +2,7 @@ interface PlusIconProps {
   size?: number;
 }
 
-export function PlusIcon({ size = 70 }: PlusIconProps) {
+export function PlusIcon({ size = 26 }: PlusIconProps) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} fill="none" viewBox="0 0 26 26">
       <path
