@@ -18,11 +18,11 @@ export const defaultTheme = {
       'brand-orange': '180deg, #ffc92c 0%, #fd9371 100%',
     },
   },
-  textSizes: {
-    'text-s': '0.75rem',
-    'text-m': '0.875rem',
-    'heading-s': '0.875rem',
-    'heading-m': '1.25rem',
-    'heading-l': '1.5rem',
+  fontSizes: {
+    xs: '0.75rem',
+    s: '0.875rem',
+    m: '1rem',
+    l: '1.25rem',
+    xl: '1.5rem',
   },
 };
