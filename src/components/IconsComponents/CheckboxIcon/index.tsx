@@ -1,6 +1,16 @@
-function CheckboxUnchecked() {
+interface CheckboxProps {
+  size?: number;
+}
+
+function CheckboxUnchecked({ size = 18 }: CheckboxProps) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={size}
+      height={size}
+      fill="none"
+      viewBox="0 0 20 20"
+    >
       <path
         stroke="url(#paint0_linear_18_167)"
         strokeWidth="2"
@@ -24,9 +34,15 @@ function CheckboxUnchecked() {
   );
 }
 
-function CheckboxChecked() {
+function CheckboxChecked({ size = 18 }: CheckboxProps) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={size}
+      height={size}
+      fill="none"
+      viewBox="0 0 20 20"
+    >
       <path
         fill="url(#paint0_linear_18_118)"
         stroke="url(#paint1_linear_18_118)"
